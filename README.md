@@ -101,6 +101,11 @@ Please check the example for the custom usage
 
 # Change Log
 
+# Credits
+
+I could not find the artist of this design, please find me :) 
+
+
 ## Author
 
 FreakyCoder, kurayogun@gmail.com
