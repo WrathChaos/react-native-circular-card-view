@@ -44,8 +44,6 @@ npm i react-native-circular-card-view
 "@freakycoder/react-native-helpers": ">= 0.0.21",
 ```
 
-# These are just example mock data
-
 ## Import
 
 ```js
