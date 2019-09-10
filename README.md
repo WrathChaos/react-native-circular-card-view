@@ -15,7 +15,9 @@
 
 <p align="center">
   <img alt="React Native Circular Card View"
-        src="https://github.com/WrathChaos/react-native-circular-card-view/blob/master/assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="https://github.com/WrathChaos/react-native-circular-card-view/blob/master/assets/Screenshots/example.png" width="49%" />
+  <img alt="React Native Circular Card View"
+        src="https://github.com/WrathChaos/react-native-circular-card-view/blob/master/assets/Screenshots/react-native-circular-card-view.gif" width="49%" />
 </p>
 
 ## Installation

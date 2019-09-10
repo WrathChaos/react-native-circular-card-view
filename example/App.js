@@ -7,7 +7,7 @@ const data = [
     title: "Tulip",
     description:
       "The tulip is a popular spring bulb. It offers the greatest variety in color, shape, and form.",
-    price: "$0.8",
+    price: "$1",
     rippleColor: "#f5cbdc",
     color: "#f5cbdc",
     image:
@@ -35,6 +35,7 @@ const App = () => {
           price={price}
           color={color}
           source={image}
+          priceText={price}
           description={description}
           rippleColor={rippleColor}
         />
