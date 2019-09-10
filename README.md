@@ -37,11 +37,11 @@ npm i react-native-circular-card-view
 ```
 "react": ">= 16.x.x",
 "react-native": ">= 0.55.x",
-"@freakycoder/react-native-helpers": ">= 0.0.21",
 "react-native-androw": ">= 0.0.33",
-"react-native-dynamic-vector-icons": ">= 0.2.1",
-"react-native-material-ripple": ">= 0.8.0",
 "react-native-vector-icons": ">= 6.6.0"
+"react-native-material-ripple": ">= 0.8.0",
+"react-native-dynamic-vector-icons": ">= 0.2.1",
+"@freakycoder/react-native-helpers": ">= 0.0.21",
 ```
 
 # These are just example mock data
