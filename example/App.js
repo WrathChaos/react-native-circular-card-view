@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { View, FlatList, StatusBar, SafeAreaView } from "react-native";
-import CircularCard from "./lib/src/components/CircularCard/CircularCard";
+import CircularCard from "react-native-circular-card-view";
 
 const data = [
   {

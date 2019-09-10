@@ -37,45 +37,63 @@ npm i react-native-circular-card-view
 ```
 "react": ">= 16.x.x",
 "react-native": ">= 0.55.x",
+"@freakycoder/react-native-helpers": ">= 0.0.21",
+"react-native-androw": ">= 0.0.33",
+"react-native-dynamic-vector-icons": ">= 0.2.1",
+"react-native-material-ripple": ">= 0.8.0",
+"react-native-vector-icons": ">= 6.6.0"
 ```
 
 # These are just example mock data
 
-# Your Component Options
-
-- Option 1 Component
-- Option 2 Component
-
 ## Import
 
 ```js
-import { Component1, Component2 } from "react-native-circular-card-view";
+import CircularCard from "react-native-circular-card-view";
 ```
 
-# Component1 Usage 
+# Simple Usage 
 
 ```js
-<Component1 />
+<CircularCard />
 ```
 
 
-# Component2 Usage 
+# Advanced Custom Usage 
+
+Please check the example for the custom usage
 
 ```js
-<Component2 />
+<CircularCard
+  title={title}
+  price={price}
+  color={color}
+  source={image}
+  priceText={price}
+  description={description}
+  rippleColor={rippleColor}
+/>
 ```
 
 
 ### Configuration - Props
 
-#### Note: These values are just example 
-
-| Property |  Type   | Default | Description                                             |
-| -------- | :-----: | :-----: | ------------------------------------------------------- |
-| outline  | boolean |  true   | make the button outline                                 |
-| solid    | boolean |  false  | make the button with a solid background and a shadow    |
-| gradient | boolean |  false  | make the button with a gradient background and a shadow |
-| width    | number  |   150   | change the button's width                               |
+| Property         |     Type     |      Default      | Description                             |
+| ---------------- | :----------: | :---------------: | --------------------------------------- |
+| title            |    string    |  check the code   | set the title                           |
+| description      |    string    |  check the code   | set the description                     |
+| priceText        |    string    |  check the code   | set the right bottom text               |
+| width            |    number    | ScreenWidth * 0.9 | change the card's width                 |
+| height           |    number    |        125        | change the card's height                |
+| source           | string (uri) |  Unsplash String  | set the image source as uri             |
+| shadowColor      |    color     |       #000        | change the card's shadow color          |
+| backgroundColor  |    color     |      #fcfcfc      | change the card's main background color |
+| iconOnPress      |   function   |       null        | set the icon onPress function           |
+| imageStyle       |    style     |       style       | set your own style for image            |
+| titleStyle       |    style     |       style       | set your own style for title            |
+| priceStyle       |    style     |       style       | set your own style for price            |
+| shadowStyle      |    style     |       style       | set your own style for shadow           |
+| descriptionStyle |    style     |       style       | set your own style for description      |
 
 
 ### ToDos
@@ -84,8 +102,6 @@ import { Component1, Component2 } from "react-native-circular-card-view";
 - [ ] Write an article about the lib on Medium
 
 # Change Log
-
-Change log will be here !
 
 ## Author
 
