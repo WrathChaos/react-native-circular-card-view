@@ -8,6 +8,8 @@ const data = [
     description:
       "The tulip is a popular spring bulb. It offers the greatest variety in color, shape, and form.",
     price: "$0.8",
+    rippleColor: "#f5cbdc",
+    color: "#f5cbdc",
     image:
       "https://images.unsplash.com/photo-1520763185298-1b434c919102?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
   },
@@ -16,21 +18,25 @@ const data = [
     description:
       "Gerbera's colors and form perfectly c onvey the best and most positive feelings.",
     price: "$0.8",
+    rippleColor: "#b0e3fe",
+    color: "#b0e3fe",
     image:
-      "https://images.unsplash.com/photo-1562534829-ced692edb559?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+      "https://images.unsplash.com/photo-1525535130303-eb1cb600f68c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
   }
 ];
 
 const App = () => {
   renderItem = value => {
-    const { title, description, price, image } = value.item;
+    const { title, description, price, image, color, rippleColor } = value.item;
     return (
       <View style={{ marginTop: 16 }}>
         <CircularCard
           title={title}
-          description={description}
           price={price}
+          color={color}
           source={image}
+          description={description}
+          rippleColor={rippleColor}
         />
       </View>
     );

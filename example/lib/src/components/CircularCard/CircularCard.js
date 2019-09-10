@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Text, View, Image } from "react-native";
+import { Text, View, Image, TouchableOpacity } from "react-native";
 import Androw from "react-native-androw";
 import Icon from "react-native-dynamic-vector-icons";
 import Ripple from "react-native-material-ripple";
@@ -12,16 +12,17 @@ const CircularCard = props => {
     width,
     title,
     height,
-    description,
+    source,
     priceText,
     imageStyle,
     titleStyle,
     priceStyle,
     shadowColor,
+    description,
     shadowStyle,
-    source,
-    descriptionStyle,
-    backgroundColor
+    iconOnPress,
+    backgroundColor,
+    descriptionStyle
   } = props;
   return (
     <Androw style={shadowStyle || _shadowStyle(shadowColor)}>
@@ -45,7 +46,7 @@ const CircularCard = props => {
               </Text>
             </View>
           </View>
-          <View style={styles.iconContainer}>
+          <TouchableOpacity style={styles.iconContainer} onPress={iconOnPress}>
             <Icon
               name="heart"
               type="AntDesign"
@@ -53,7 +54,7 @@ const CircularCard = props => {
               color="#f5cbdc"
               {...props}
             />
-          </View>
+          </TouchableOpacity>
           <View style={styles.priceTextContainer}>
             <Text style={priceStyle || styles.priceTextStyle}>{priceText}</Text>
           </View>
