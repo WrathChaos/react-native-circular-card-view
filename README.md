@@ -4,7 +4,7 @@
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-circular-card-view)
 
 
-[![React Native Library Boiler Plate](https://img.shields.io/badge/-React%20Native%20Library%20Boilerplate-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-circular-card-view)
+[![Fully customizable Circular Card View for React Native](https://img.shields.io/badge/-Fully%20customizable%20Circular%20Card%20View%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-circular-card-view)
 
 
 [![npm version](https://img.shields.io/npm/v/react-native-circular-card-view.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-circular-card-view)
