@@ -1,6 +1,6 @@
 {
   "name": "react-native-circular-card-view",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fully customizable Circular Card View for React Native",
   "keywords": [
     "FreakyCoder",
@@ -15,7 +15,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-circular-card-view/issues",
-  "main": "./lib/src/index.js",
+  "main": "./lib/src/CircularCard.js",
   "repository": "git@github.com:WrathChaos/react-native-circular-card-view.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
