@@ -47,12 +47,12 @@ npm i react-native-circular-card-view
 ## Import
 
 ```js
-import CircularCard from "react-native-circular-card-view";
+import { CircularCard } from "react-native-circular-card-view";
 ```
 
 # Simple Usage 
 
-```js
+```jsx
 <CircularCard />
 ```
 
@@ -61,7 +61,7 @@ import CircularCard from "react-native-circular-card-view";
 
 Please check the example for the custom usage
 
-```js
+```jsx
 <CircularCard
   title={title}
   price={price}
@@ -96,7 +96,7 @@ Please check the example for the custom usage
 
 ### ToDos
 
-- [x] LICENSE
+- [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
 
 # Change Log
